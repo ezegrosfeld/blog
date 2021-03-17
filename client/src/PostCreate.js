@@ -12,6 +12,8 @@ export default () => {
     });
 
     setTitle("");
+
+    location.reload();
   };
   return (
     <div>

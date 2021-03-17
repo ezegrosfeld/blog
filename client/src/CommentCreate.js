@@ -11,6 +11,8 @@ export default ({ postId }) => {
     });
 
     setContent("");
+
+    location.reload();
   };
   return (
     <div>
