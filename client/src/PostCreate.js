@@ -13,7 +13,7 @@ export default () => {
 
     setTitle("");
 
-    location.reload();
+    window?.location.reload();
   };
   return (
     <div>

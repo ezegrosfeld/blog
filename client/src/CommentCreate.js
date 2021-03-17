@@ -12,7 +12,7 @@ export default ({ postId }) => {
 
     setContent("");
 
-    location.reload();
+    window?.location.reload();
   };
   return (
     <div>
